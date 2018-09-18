@@ -879,6 +879,9 @@ class TestZoneGroupTopology:
     def test_soco_is_bridge(self, moco_zgs):
         assert not moco_zgs.is_bridge
 
+    def test_soco_is_soundbar(self, moco_zgs):
+        assert not moco_zgs.is_soundbar
+
     def test_soco_is_coordinator(self, moco_zgs):
         assert moco_zgs.is_coordinator
 
